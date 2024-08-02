@@ -4,18 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
     <title>Register &mdash; HTClub</title>
 
     <!-- General CSS Files -->
-    <link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/modules/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="{{ url('assets/modules/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/modules/fontawesome/css/all.min.css') }}">
 
     <!-- CSS Libraries -->
-    <link rel="stylesheet" href="assets/modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="{{ url('assets/modules/bootstrap-social/bootstrap-social.css') }}">
 
     <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="{{ url('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ url('assets/css/components.css') }}">
 </head>
 
 <body>
